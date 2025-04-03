@@ -1,0 +1,37 @@
+/* Ensures body fills the viewport without scrollbars */
+body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  /* Typography Styling */
+  h1 {
+    font-size: 25vw;
+    font-family: "embryo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+  }
+  
+  /* Apply pointer-events to text only for accurate dragging */
+  .letters {
+    position: absolute;
+    user-select: none;
+  }
+  
+  .letters h1 {
+    cursor: grab;
+  }
+  
+  /* Positioning and coloring letters*/
+  #letterP { left: 10; top: 20vh; color: red; }
+  #letterA { left: 20vw; top: 50vh; color: blue; }
+  #letterN { left: 30vw; top: 10vh; color: purple; }
+  #letterO { left: 50vw; top: 30vh; color: green; }
+  #letterP2 { left: 80vw; top: 20vh; color: orange; }
+  #letterL { left: 60vw; top: 60vh; color: magenta; }
+  #letterY { left: 80vw; top: 50vh; color: cyan; }
+  
