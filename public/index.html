@@ -5,27 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Panoply</title>
 
+  <!-- STYLES -->
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="stylesheet" href="https://use.typekit.net/ykd0fbm.css" />
 
-  <!-- jQuery + jQuery UI + Touch Punch -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <!-- LIBRARIES -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+
+  <!-- FIREBASE (v10) -->
+  <script type="module" src="scripts.js"></script>
 </head>
 <body>
   <div id="instructions"></div>
   <button id="addTextBtn">Add Text</button>
   <div id="trail-layer"></div>
 
-  <h1 class="draggable-letter" id="letterP">P</h1>
-  <h1 class="draggable-letter" id="letterA">A</h1>
-  <h1 class="draggable-letter" id="letterN">N</h1>
-  <h1 class="draggable-letter" id="letterO">O</h1>
-  <h1 class="draggable-letter" id="letterP2">P</h1>
-  <h1 class="draggable-letter" id="letterL">L</h1>
-  <h1 class="draggable-letter" id="letterY">Y</h1>
-
-  <script type="module" src="scripts.js"></script>
+  <!-- Letters -->
+  <h1 class="draggable-letter" id="P">P</h1>
+  <h1 class="draggable-letter" id="A">A</h1>
+  <h1 class="draggable-letter" id="N">N</h1>
+  <h1 class="draggable-letter" id="O">O</h1>
+  <h1 class="draggable-letter" id="P2">P</h1>
+  <h1 class="draggable-letter" id="L">L</h1>
+  <h1 class="draggable-letter" id="Y">Y</h1>
 </body>
 </html>
