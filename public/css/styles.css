@@ -46,12 +46,12 @@ html, body {
 }
 
 
-#letterP { left: 5vw; top: -10vh; color: red; }
-#letterA { left: 20vw; top: -20vh; color: blue; }
-#letterN { left: 40vw; top: -10vh; color: purple; }
+#letterP { left: 5vw; top: 10vh; color: red; }
+#letterA { left: 20vw; top: 20vh; color: blue; }
+#letterN { left: 40vw; top: 10vh; color: purple; }
 #letterO { left: 50vw; top: 0vh; color: green; }
-#letterP2 { left: 80vw; top: -50vh; color: orange; }
-#letterL { left: 60vw; top: -40vh; color: magenta; }
+#letterP2 { left: 80vw; top: 50vh; color: orange; }
+#letterL { left: 60vw; top: 40vh; color: magenta; }
 #letterY { left: 80vw; top: 0vh; color: cyan; }
 
 /* Text Boxes */
