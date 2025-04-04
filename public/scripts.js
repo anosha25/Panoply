@@ -2,16 +2,16 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js';
 import { getFirestore, doc, setDoc, onSnapshot } from 'https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore.js';
 
-// ✅ Your Firebase config
 const firebaseConfig = {
   apiKey: "AIzaSyDPY2D2yHuxXEB8NLU8oVdgDm0nrGoT7nQ",
   authDomain: "panoply-web.firebaseapp.com",
   projectId: "panoply-web",
-  storageBucket: "panoply-web.firebasestorage.app",
+  storageBucket: "panoply-web.appspot.com", 
   messagingSenderId: "625340337711",
   appId: "1:625340337711:web:da025111343b53eca040da",
   measurementId: "G-Y2PMELK4VR"
 };
+
 
 // ✅ Init Firebase
 const app = initializeApp(firebaseConfig);
