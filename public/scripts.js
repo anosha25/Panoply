@@ -6,7 +6,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyDPY2D2yHuxXEB8NLU8oVdgDm0nrGoT7nQ",
   authDomain: "panoply-web.firebaseapp.com",
   projectId: "panoply-web",
-  storageBucket: "panoply-web.appspot.com", 
+  storageBucket: "panoply-web.firebasestorage.app",
   messagingSenderId: "625340337711",
   appId: "1:625340337711:web:da025111343b53eca040da",
   measurementId: "G-Y2PMELK4VR"
@@ -22,7 +22,7 @@ $(document).ready(function () {
 
   // Load existing letter positions in real-time
   letterIDs.forEach((id) => {
-    const el = $(`#letter${id}`);
+    const el = $(`#${id}`);
     const ref = doc(db, 'letters', id);
     onSnapshot(ref, (snap) => {
       if (snap.exists()) {
